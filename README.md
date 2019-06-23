@@ -11,7 +11,7 @@ Deploying Go Application on Heroku
 
 ## Important
 
-This repo Go project name is **go-heroku** which will in several files, to rename project name, find and replace **go-heroku** with your desired name.
+This repo Go project name is **go-heroku** which will be in several files, to rename project name, find and replace **go-heroku** with your desired name.
 
 For more information please visit [here](https://devcenter.heroku.com/articles/getting-started-with-go)
 

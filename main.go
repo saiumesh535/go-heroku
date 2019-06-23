@@ -15,7 +15,7 @@ func main() {
 	r.Use(gin.Recovery())
 	r.GET("/", func(context *gin.Context) {
 		context.JSON(http.StatusOK, gin.H{
-			"hey!": "Message from Heroku",
+			"hey!": "Message from Heroku, with restart now 🔥🔥",
 		})
 	})
 	err := r.Run(":" + port)

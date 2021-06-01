@@ -13,6 +13,7 @@ func main() {
 	e := echo.New()
 	e.Use(middleware.Recover())
 	e.GET("/", hello)
+	e.Static("/", "web/build")
 	e.Logger.Fatal(e.Start(":" + port))
 }
 

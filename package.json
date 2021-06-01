@@ -1,0 +1,20 @@
+{
+  "name": "go-heroku",
+  "version": "1.0.0",
+  "description": "Deploying Go Application on Heroku",
+  "main": "index.js",
+  "scripts": {
+    "start": "cd web npm install && npm run build && cd .."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://saiumesh535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@github.com/saiumesh535/go-heroku.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saiumesh535/go-heroku/issues"
+  },
+  "homepage": "https://github.com/saiumesh535/go-heroku#readme"
+}

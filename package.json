@@ -4,7 +4,7 @@
   "description": "Deploying Go Application on Heroku",
   "main": "index.js",
   "scripts": {
-    "postinstall": "cd web npm install && npm run build && cd .."
+    "postinstall": "cd web && npm install && npm run build && cd .."
   },
   "repository": {
     "type": "git",

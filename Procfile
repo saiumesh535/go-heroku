@@ -1,1 +1,1 @@
-web: bin/go-heroku
+web: cd web npm install && npm run build && bin/go-heroku

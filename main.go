@@ -12,8 +12,8 @@ func main() {
 	port := os.Getenv("PORT")
 	e := echo.New()
 	e.Use(middleware.Recover())
-	e.GET("/", hello)
 	e.Static("/", "web/build")
+	e.GET("/name", hello)
 	e.Logger.Fatal(e.Start(":" + port))
 }
 
